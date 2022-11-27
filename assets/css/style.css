@@ -8,7 +8,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13293d;
+    background-color: #030c10;
     color: #fff;
   }
 
@@ -19,7 +19,7 @@ body {
   h1::after {
     font-family: Impact;
     content: 'Ishan';
-    color: #8ac4ff;
+    color:#546e7a;
     margin-left: 5px;
   }
 
@@ -33,17 +33,11 @@ body {
     font-size: 150%;
   }
 
-  h3::before {
-    font-family: Impact;
-    content: '\273A';
-    color: #772014;
-    margin-right: 5px;
-  }
 
   nav li::before,
 nav li::after {
   
-  color: #8ac4ff;
+  color: 546e7a;
   padding: 1%;
   font-family: cursive;
 }
@@ -55,7 +49,7 @@ nav ul {
   }
   
   nav a {
-    color: #8ac4ff;
+    color: #546e7a;
     font-weight: bold;
     text-decoration: none;
   }
@@ -65,8 +59,28 @@ nav ul {
     text-decoration: underline;
   }
 
+  .subtitle {
+    padding: 50px;
+    text-align: right;
+    background-image:url(/res/assets/images/a.jpeg);
+    color: #fff;
+    overflow:hidden;
+  }
+  .subtitle p {
+    font-weight:bold;
+    text-align:right;
+    position: absolute;
+    
+  } 
+  .subtitle img {
+    float:left;
+    width: 20%;
+    height:auto;
+
+  }
+
   @media screen and (max-width: 768px) {
-    header, main {
+    header {
       flex-direction: column;
     }
   
