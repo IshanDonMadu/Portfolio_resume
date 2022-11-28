@@ -62,10 +62,13 @@ nav ul {
   .subtitle {
     padding: 50px;
     text-align: right;
-    background-image:url(/res/assets/images/a.jpeg);
+    background-image:url(/assets/images/a.jpeg);
     color: #fff;
     overflow:hidden;
   }
+
+
+
   .subtitle p {
     font-weight:bold;
     text-align:right;
@@ -76,8 +79,14 @@ nav ul {
     float:left;
     width: 20%;
     height:auto;
-
   }
+
+
+.contact-info { 
+    margin-top: 7px; 
+}
+
+
 
   @media screen and (max-width: 768px) {
     header {
