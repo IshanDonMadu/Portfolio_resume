@@ -228,9 +228,10 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-.work_pro > img {
+.work_pro > button > img {
   width: 200px;
 }
+
 .work_pro {
   display: flex;
   flex-direction: column;
